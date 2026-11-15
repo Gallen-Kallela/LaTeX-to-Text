@@ -1,6 +1,6 @@
 # LaTeX to Text
 
-A small tool that converts selected LaTeX math into plain text. Select a formula, press **Ctrl+Shift+L**, and the converted text is on your clipboard.
+A small tool that converts selected LaTeX math into plain text. Select a formula, press **Ctrl+Shift+L**, and the converted text is on your clipboard. Download the .exe file from the releases section or for a more customizable experience download the .ahk file.
 
 ## Usage
 

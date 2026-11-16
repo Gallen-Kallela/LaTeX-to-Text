@@ -1,6 +1,6 @@
 # LaTeX to Text
 
-A small tool that converts selected LaTeX math into plain text. Select a formula, press **Ctrl+Shift+L**, and the converted text is on your clipboard. Download the .exe file from the releases section or for a more customizable experience download the .ahk file.
+A small tool that converts selected LaTeX math into plain text. Select a formula, press **Ctrl+Shift+L**, and the converted text is on your clipboard. Download the .exe file from the releases section or use scoop to get it (detailed instructions for scoop below). For a more customizable experience download the .ahk file.
 
 ## Usage
 
@@ -48,3 +48,29 @@ To customize the tool you need the `latex_to_text.ahk` file and [AutoHotkey v2](
 - **Pop-up text:** change `"Copied!"`.
 - **Pop-up transparency:** change `toastAlpha` (lower = more transparent).
 - **Symbols:** add a pair like `"\gamma", "γ"` to one of the `ApplySymbols` lists.
+
+## Installing with Scoop
+
+If you use [Scoop](https://scoop.sh), you can install the tool from the command line:
+
+1. Add the bucket:
+   ```
+   scoop bucket add gallen-kallela https://github.com/Gallen-Kallela/scoop-bucket
+   ```
+2. Install the app:
+   ```
+   scoop install latex-to-text
+   ```
+3. Start it by searching for **LaTeX to Text** in the Start Menu, or by typing `latex_to_text` in a terminal.
+
+To update to a newer version:
+
+```
+scoop update latex-to-text
+```
+
+To uninstall:
+
+```
+scoop uninstall latex-to-text
+```
